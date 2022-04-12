@@ -118,7 +118,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    padding: 10px;
+    padding: 30px;
 }
 .d-flex{
     display: flex;
@@ -151,13 +151,28 @@
     flex-grow: 4;
     min-height: 300px;
 }
+.text-center{
+    text-align: center;
+}
 .bg-green{
-    background-color: #228B22;
+    /* background-color: #228B22; */
     width: 100%;
     max-width: 960px;
     min-width: 500px;
     min-height: 700px;
     margin: 0 auto;
+    padding: 15px;
+}
+.last-background{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+}
+.bg-ciano{
+    background-color: rgb(133, 174, 252);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    display: inline-block;
+    font-size: 25px;
 }
 .no-reverse{
     flex-direction: row;
