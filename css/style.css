@@ -11,20 +11,22 @@
   
 .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 750px;
     min-width: 500px;
-    min-height: 300px;
+    min-height: 350px;
     margin: 0 auto;
     /* padding: 2em 1em; */
   }
 .section{
-    padding: 4rem 0;
+    padding: 6rem 0;
   }
 .bg-pink{
-    background-color: #EE82EE;
+    /* background-color:#3161E0; */
 }
 .bg-jumbotron{
-      background-color: #00008B;
+      background-color: #3161E0;
+      background-image: url(../img/jumbo.png);
+      background-size: cover;
   }
 .bg-gray{
       background-color: lightgray;
@@ -33,7 +35,7 @@
     background-color: lightgray;
 }
 .section-header{
-    background-color: #ADD8E6;
+    background-color: #3161E0;
     width: 100%;
     min-height: 60px;
     min-width: 500px;
@@ -46,18 +48,76 @@
     padding: 15px;
     
 }
-.col{
-    background-color: #DAA520;
+.col-left{
+    background-color: #3161E0;
     display: inline-block;
-    min-width: 100px;
+    min-width: 350px;
     min-height: 30px;
-    border: 1px solid black;
-
+    /* border: 1px solid black; */
+}
+.col-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3161E0;
+    min-width: 350px;
+    min-height: 30px;
 }
 .col-2{
-    min-width: 960px;
-    border: 1px dashed red;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 700px;
+    /* border: 1px dashed red; */
     text-align: center;
+    color: white;
+}
+.button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.bg-white{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    display: inline-block;
+    font-size: 25px;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    font-size: 24px;
+    margin-left: 25px;
+
+}
+.title{
+    text-align: center;
+    font-size: xxx-large;
+    color: white;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    width: 735px;
+    margin: 1em auto;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
 }
 .d-flex{
     display: flex;
@@ -85,7 +145,7 @@
 .no-reverse{
     flex-direction: row;
 }
-.bg-black{
+.bg-dark{
     background-color: black;
     
 }
@@ -104,12 +164,11 @@
     
 }
 .container-log-footer{
-    max-width: 1097px;
-    min-width: 400px;
+    max-width: 1099px;
+    min-width: 379px;
     min-height: 100px;
-    margin: 0 auto;
+    margin: 20px auto;
     background: aqua;
-    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
