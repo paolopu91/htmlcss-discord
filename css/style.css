@@ -124,13 +124,26 @@
     flex-direction: row-reverse;
 }
 .square-small{
-    background-color: #1E90FF;
-    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 2;
     min-height: 300px;
+    min-width: 190px;
+}
+.title-paragraph{
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.first-paragraph{
+    font-size: 20px;
+    padding: 10px;
+    min-width: 350px;
 }
 .square-large{
-    background-color: #FFC0CB;
-    flex-grow: 2;
+    padding: 10px;
+    flex-grow: 4;
     min-height: 300px;
 }
 .bg-green{
@@ -140,7 +153,6 @@
     min-width: 500px;
     min-height: 700px;
     margin: 0 auto;
-    
 }
 .no-reverse{
     flex-direction: row;
