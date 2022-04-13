@@ -179,7 +179,6 @@
 }
 .bg-dark{
     background-color: black;
-    
 }
 .square-footer{
     width: 100%;
@@ -195,15 +194,77 @@
     background-color: #542358;
     
 }
+footer{
+    background-color: black;
+}
+.container-footer{
+    width: 100%;
+    max-width: 960px;
+    min-width: 500px;
+    min-height: 350px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.col{
+    min-width: 185px ;
+    min-height: 350px;
+}
+.grow2{
+    flex-grow: 2;
+}
 .container-log-footer{
     max-width: 1099px;
     min-width: 379px;
     min-height: 100px;
     margin: 20px auto;
-    background: aqua;
+    /* background: aqua; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.title-footer{
+    padding: 10px;
+    font-size: 20px;
+    min-width: 185px;
+    padding: 0%;
+}
+.subtitle-footer{
+    padding: 10px;
+    font-size: 20px;
+    min-width: 185px;
+    padding: 0%;
+}
+.padding-low{
+    padding: 8px;
+}
+.padding{
+    padding: 8px;
+}
+.text-start{
+    text-align: start;
+    font-weight: bold;
+}
+.text-end{
+    text-align: end;
+}
+.space{
+    margin: 10px;
+}
+.f-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.a-flex{
+    display: flex;
+    flex-direction:row;
+}
+
+.c-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .col-footer{
     margin-bottom: 20px;
@@ -212,13 +273,23 @@
     display: flex;
     justify-content: space-between;
 }
-.logo-footer{
-    width: 70px;
-    height: 30px;
-    background-color: #EE82EE;
+.flag{
+    width: 25px;
+    height: 15px;
+    margin: 10px;
+}
+
+.color-ciano{
+    color: #5B82EE;
+}
+.color-white{
+    color: white;
 }
 .button-footer{
-    width: 70px;
-    height: 30px;
-    background-color: #EE82EE;
+    background-color: #68a4f3;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
 }
+
